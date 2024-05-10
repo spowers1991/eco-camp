@@ -18,6 +18,7 @@ import Accomodation from "@/components/content_types/Accomodation";
 import Samples from "@/components/blocks/Samples";
 import FullWidthSlider from "@/components/blocks/FullWidthSlider";
 import ContentWithImageAside from "@/components/blocks/ContentWithImageAside"
+import PostsGrid from "../components/blocks/PostsGrid";
 
 // Initialise Storyblok and link components to the components in our Storyblok Stories.
 const components = {
@@ -26,6 +27,7 @@ const components = {
   samples: Samples,
   full_width_slider: FullWidthSlider,
   content_with_image_aside: ContentWithImageAside,
+  posts_grid: PostsGrid,
 };
 
 storyblokInit({

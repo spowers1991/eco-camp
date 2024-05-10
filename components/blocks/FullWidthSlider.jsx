@@ -54,7 +54,7 @@ const FullWidthSlider = ({ blok }) => {
             <SwiperSlide key={index}>
               <div className='px-6 sm:px-0 flex flex-row items-center h-full w-full'>
                 <div className='container m-auto w-full'>
-                    <Heading size="h1" underlineAnimation={true} hideUnderlineOnMobile={true} largeText={true} className="max-w-5xl text-center m-auto relative w-fit !text-[#f1f1f1] md:!text-[120px] !mb-0">
+                    <Heading size="h1" underlineAnimation={true} hideUnderlineOnMobile={true} className="max-w-5xl text-center m-auto relative w-fit !text-[#f1f1f1] md:!text-[120px] !mb-0 [&_div]:max-w-[101%] [&_div]:bottom-[-2px]">
                         <div className='opacity-90'>
                           {slide.title}
                         </div>                 

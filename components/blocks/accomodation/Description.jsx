@@ -17,7 +17,7 @@ const Content = ({ story }) => {
           <Price story={story} />
 
           {story.content.description &&
-            <div className='font-roboto text-lg sm:text-xl leading-6 sm:leading-7 [&_b]:text-xl [&_b]:sm:text-2xl [&_b]:!leading-6 [&_b]:sm:!leading-7 tracking-[-0.5px]'>
+            <div className='font-roboto text-lg sm:text-xl font-light leading-6 sm:leading-7 [&_b]:text-xl [&_b]:sm:text-2xl [&_b]:!leading-6 [&_b]:sm:!leading-7 &_b]:sm:!font-normal tracking-[-0.5px]'>
               <RichText content={story.content.description} />  
             </div>
           }       

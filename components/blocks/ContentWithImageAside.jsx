@@ -13,11 +13,11 @@ const Samples = ({ blok }) => {
          
             <div className='w-full lg:w-1/2'>
                 {blok.title &&
-                    <Heading size="h2" underlineAnimation={true} className="max-w-5xl text-center m-[0px] xl:m-auto relative w-fit">                    
+                    <Heading size="h2" underlineAnimation={true} className="max-w-5xl m-[0px] relative w-fit">                    
                         {blok.title}            
                     </Heading>
                 }
-                <div className='ml-1 max-w-2xl text-lg pt-3 my-2 sm:my-5 font-roboto font-bold leading-widest text-[#333]'>
+                <div className='ml-1 max-w-2xl text-lg sm:text-xl font-light pt-3 my-2 sm:my-5 font-roboto leading-widest text-[#333]font-roboto leading-6 sm:leading-7 [&_b]:text-xl [&_b]:sm:text-2xl [&_b]:!leading-6 [&_b]:sm:!leading-7 [&_b]:sm:!font-normal tracking-[-0.5px]'>
                     <RichText content={blok.content}/>
                 </div>
 
